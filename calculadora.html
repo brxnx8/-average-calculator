@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Document</title>
+</head>
+<body>
+    <h1>Média das notas dos alunos</h1>
+    <section>
+        <div class="main">
+            <div class="child1">
+                <label for="nota">Notas:</label>
+                <input type="number" id="nota">
+                <input type="reset" value="Adicionar" onclick="adicionar()">
+            </div>
+        
+            <div class="child2">
+                <fieldset>
+                    <ul id="lista">
+                        <li>8</li>
+                        <li>9</li>
+                    </ul>
+                </fieldset>
+            </div>
+
+            <div class="child3">
+                <input type="submit" value="Calcular Média">
+                <p>A média é: </p>
+            </div>
+        </div>
+               
+    </section>
+    <script src="calculadora.js"></script>
+</body>
+</html>
