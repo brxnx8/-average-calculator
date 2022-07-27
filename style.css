@@ -21,17 +21,14 @@ div.main{
     text-align: justify;
     padding-bottom: 10px;
 }
-.child2{
-    text-align: center;
-    padding-bottom: 10px;
-}
-.child3{
-    text-align: justify;
-}
 fieldset{
     height: 300px;
     text-align: justify;
+    margin: 12px;
 }
 li{
     list-style-type: none;
+}
+span{
+    opacity: 0;
 }

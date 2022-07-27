@@ -11,25 +11,19 @@
     <h1>Média das notas dos alunos</h1>
     <section>
         <div class="main">
-            <div class="child1">
+            <form class="child1">
                 <label for="nota">Notas:</label>
                 <input type="number" id="nota">
                 <input type="reset" value="Adicionar" onclick="adicionar()">
-            </div>
-        
-            <div class="child2">
                 <fieldset>
                     <ul id="lista">
-                        <li>8</li>
-                        <li>9</li>
                     </ul>
                 </fieldset>
-            </div>
-
-            <div class="child3">
-                <input type="submit" value="Calcular Média">
-                <p>A média é: </p>
-            </div>
+                <input type="reset" value="Calcular Média" onclick="calcular()">
+                <ul id="medias">
+                    <li>a media é: <span>5</span> </li>
+                </ul>
+            </form>
         </div>
                
     </section>
