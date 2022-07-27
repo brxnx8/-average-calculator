@@ -22,3 +22,12 @@ function adicionar(){
     }
 
 }
+
+function calcular(){
+
+    document.body.querySelector("span").style.opacity = 100;
+    document.body.querySelector('#lista').innerHTML = "<li></li>";
+    vezes = 0;
+    soma = 0;
+
+}
