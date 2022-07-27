@@ -28,6 +28,7 @@ fieldset{
 }
 li{
     list-style-type: none;
+    font-size: 20px;
 }
 span{
     opacity: 0;

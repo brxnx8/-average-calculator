@@ -24,7 +24,7 @@ function adicionar(){
         document.body.querySelector('#lista').innerHTML = lista;
         soma = soma + Number(nota);
         media = soma/(vezes);
-        document.body.querySelector("span").innerText = media;
+        document.body.querySelector("span").innerText = media.toFixed(2);
     
     }
 
